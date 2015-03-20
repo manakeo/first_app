@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/yoan/local/bin/node',
+1 verbose cli   '/home/yoan/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ungit' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose cache add [ 'ungit', null ]
+5 verbose cache add name=undefined spec="ungit" args=["ungit",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ungit',
+6 verbose parsed url   path: 'ungit',
+6 verbose parsed url   href: 'ungit' }
+7 silly lockFile b5f3d853-ungit ungit
+8 verbose lock ungit /home/yoan/.npm/b5f3d853-ungit.lock
+9 silly lockFile b5f3d853-ungit ungit
+10 silly lockFile b5f3d853-ungit ungit
+11 verbose addNamed [ 'ungit', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 8d18b492-ungit ungit@
+14 verbose lock ungit@ /home/yoan/.npm/8d18b492-ungit.lock
+15 silly addNameRange { name: 'ungit', range: '*', hasData: false }
+16 verbose url raw ungit
+17 verbose url resolving [ 'https://registry.npmjs.org/', './ungit' ]
+18 verbose url resolved https://registry.npmjs.org/ungit
+19 info trying registry request attempt 1 at 12:53:12
+20 http GET https://registry.npmjs.org/ungit
+21 http 200 https://registry.npmjs.org/ungit
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Fri, 20 Mar 2015 11:53:11 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"BNVXERHEOYI1R55CNU2JJ9XYF"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '60271',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-ams4136-AMS',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1426852391.176588,VS0,VE379',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'ungit', range: '*', hasData: true }
+24 silly addNameRange versions [ 'ungit',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.7',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.8.3',
+24 silly addNameRange     '0.8.4' ] ]
+25 verbose addNamed [ 'ungit', '0.8.4' ]
+26 verbose addNamed [ '0.8.4', '0.8.4' ]
+27 silly lockFile d7d78daa-ungit-0-8-4 ungit@0.8.4
+28 verbose lock ungit@0.8.4 /home/yoan/.npm/d7d78daa-ungit-0-8-4.lock
+29 silly lockFile cc217a67--npmjs-org-ungit-ungit-0-8-4-tgz https://registry.npmjs.org/ungit/-/ungit-0.8.4.tgz
+30 verbose lock https://registry.npmjs.org/ungit/-/ungit-0.8.4.tgz /home/yoan/.npm/cc217a67--npmjs-org-ungit-ungit-0-8-4-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/ungit/-/ungit-0.8.4.tgz',
+31 verbose addRemoteTarball   '3956812e8f2005415d351a710350f88b38c2d99a' ]
+32 silly lockFile cc217a67--npmjs-org-ungit-ungit-0-8-4-tgz https://registry.npmjs.org/ungit/-/ungit-0.8.4.tgz
+33 silly lockFile cc217a67--npmjs-org-ungit-ungit-0-8-4-tgz https://registry.npmjs.org/ungit/-/ungit-0.8.4.tgz
+34 silly lockFile d7d78daa-ungit-0-8-4 ungit@0.8.4
+35 silly lockFile d7d78daa-ungit-0-8-4 ungit@0.8.4
+36 silly lockFile 8d18b492-ungit ungit@
+37 silly lockFile 8d18b492-ungit ungit@
+38 error Error: EACCES, mkdir '/home/yoan/tmp/npm-22835-j2US_YZ8'
+38 error  { [Error: EACCES, mkdir '/home/yoan/tmp/npm-22835-j2US_YZ8']
+38 error   errno: 3,
+38 error   code: 'EACCES',
+38 error   path: '/home/yoan/tmp/npm-22835-j2US_YZ8' }
+39 error Please try running this command again as root/Administrator.
+40 error System Linux 3.13.0-46-generic
+41 error command "/home/yoan/local/bin/node" "/home/yoan/local/bin/npm" "install" "-g" "ungit"
+42 error cwd /home/yoan/web_workspace/dev_rail/first_app
+43 error node -v v0.10.28
+44 error npm -v 1.4.9
+45 error path /home/yoan/tmp/npm-22835-j2US_YZ8
+46 error code EACCES
+47 error errno 3
+48 error stack Error: EACCES, mkdir '/home/yoan/tmp/npm-22835-j2US_YZ8'
+49 verbose exit [ 3, true ]
